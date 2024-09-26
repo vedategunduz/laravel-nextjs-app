@@ -15,7 +15,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
         <Nav />
 
         {/* İçerik */}
-        <main className="container mx-auto" style={{minHeight: "200vh"}}>{children}</main>
+        <main className="container mx-auto" style={{ minHeight: "200vh" }}>{children}</main>
 
         {/* Footer */}
       </body>
